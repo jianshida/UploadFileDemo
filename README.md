@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 上传文件
 **上传文件**从app端降待上传的文件（图片、视频等）转化成File，并上传到七牛云存储空间，上传成功返回url。这样后台只需存储一个url字段，可以大大减轻后台服务器的压力。
 
@@ -45,6 +45,4 @@
 ### 附加
 * 根据uri获取绝对路径方法（调用UpLoadQiNiuUtil中的getRealFilePath()）
 * 根据绝对路径获取视频截图的方法(调用UpLoadQiNiuUtil中的getBitmapsFromVideo())
-=======
-# UploadFileDemo
->>>>>>> 5458cca05946bf54c09b6250722c5ecd13f1e0b6
+
